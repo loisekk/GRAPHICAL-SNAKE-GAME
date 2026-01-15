@@ -1,42 +1,38 @@
-# 🐍 Snake Game – Python (Pygame)
-
-<p align="center">
-  A classic Snake Game built using Python and Pygame.
-</p>
+# 🐍 Snake Game — Python & Pygame
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
   <img src="https://img.shields.io/badge/Pygame-Game%20Development-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Project-Type%20Game-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Author-Yash%20Brahmankar-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Beginner%20Friendly-Yes-orange?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  🎮 A classic Snake Game built using <strong>Python & Pygame</strong>, featuring smooth controls, real-time scoring, collision detection, and replay functionality.
 </p>
 
 ---
 
-## 🎯 Tagline
-**"Classic Snake game with smooth controls and real-time scoring."**
+## 🎥 Live Gameplay Preview (Plays on GitHub)
+
+<p align="center">
+  <video src="assets/snake_game_demo.mp4" width="750" controls autoplay loop muted></video>
+</p>
 
 ---
 
-## 📝 Project Description
-This project is a **classic Snake Game** developed using **Python and Pygame**.  
-The player controls a snake that grows in length by eating food while avoiding wall collisions and self-collisions.
+## 🚀 Features
 
-The game features **real-time movement**, **score tracking**, and **restart options**, making it a fun and interactive beginner-friendly game project.
-
----
-
-## ✨ Features
-- 🐍 Smooth snake movement  
-- 🍎 Random food generation  
-- 📈 Real-time score display  
-- ❌ Collision detection (walls & self)  
-- 🔁 Restart or quit option after losing  
-- 🎮 Keyboard-based controls  
+- ✔️ Smooth snake movement using keyboard controls  
+- ✔️ Real-time score tracking  
+- ✔️ Random food generation  
+- ✔️ Collision detection (walls & self)  
+- ✔️ Replay option after game over  
+- ✔️ Optimized game loop with adjustable speed  
 
 ---
 
 ## 🎮 Controls
+
 | Key | Action |
 |----|-------|
 | ⬅️ Left Arrow | Move Left |
@@ -48,27 +44,82 @@ The game features **real-time movement**, **score tracking**, and **restart opti
 
 ---
 
-## 🎥 Gameplay Demo Video
-<p align="center">
-  <a href="PASTE_YOUR_VIDEO_LINK_HERE" target="_blank">
-    <img src="https://img.shields.io/badge/Watch-Gameplay%20Video-red?style=for-the-badge&logo=youtube"/>
-  </a>
-</p>
+## 🛠️ Tech Stack
 
-> The video shows full gameplay including movement, scoring, and game-over handling.
-
----
-
-## ⚙️ Tech Stack
-- **Python**
-- **Pygame**
-- **Random module**
+- **Language:** Python 🐍  
+- **Library:** Pygame 🎮  
+- **Concepts Used:**  
+  - Game Loop  
+  - Event Handling  
+  - Collision Detection  
+  - Coordinate System  
+  - Real-Time Rendering  
 
 ---
 
-## ▶️ How to Run the Game
+## 📂 Project Structure
 
-1. Clone the repository:
+Snake-Game-Pygame/
+│
+├── assets/
+│ └── snake_game_demo.mp4
+│
+├── snake_game.py
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ▶️ How to Run Locally
+
 ```bash
-git clone https://github.com/YOUR-USERNAME/Snake-Game-Python.git
-cd Snake-Game-Python
+pip install pygame
+python snake_game.py
+🎯 Learning Outcomes
+Hands-on experience with game development in Python
+
+Understanding of event-driven programming
+
+Improved logic building and real-time rendering
+
+Strong beginner-friendly portfolio project
+
+👨‍💻 Author
+Yash Brahmankar
+🎓 B-Tech Student
+💡 Python | Game Development | Problem Solving
+
+⭐ If you like this project, don’t forget to star the repository!
+
+🏷️ Tags
+#Python #Pygame #GameDevelopment #SnakeGame
+#BeginnerProject #OpenSource #Winter5.0
+
+yaml
+Copy code
+
+---
+
+### ✅ IMPORTANT (Do this before pushing)
+Make sure:
+- Your video file is inside  
+  `assets/snake_game_demo.mp4`
+- The file is **committed & pushed** to GitHub
+
+---
+
+### 🔥 This README is:
+✔ Recruiter-ready  
+✔ Winter 5.0 ready  
+✔ Clean & professional  
+✔ GitHub-optimized  
+
+If you want next:
+- 🎨 Custom banner image
+- 🚀 Animated badges
+- 🏆 Winter 5.0 project description
+- 📌 Resume-ready summary
+
+Just say **“next upgrade”** 😎
