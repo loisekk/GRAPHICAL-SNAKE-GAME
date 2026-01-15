@@ -38,7 +38,7 @@ Perfect for learning **game development**, **GUI programming**, and **Python log
 ## 🎮 Gameplay Demo
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ACTUAL-USERNAME/ACTUAL-REPO/main/assets/snake_game_demo.gif" alt="Snake Game Demo" width="500"/>
+  <img src="https://raw.githubusercontent.com/YashBrahmankar/snake-game/main/assets/snake_game_demo.gif" alt="Snake Game Demo" width="500"/>
 </p>
 
 ---
@@ -47,7 +47,7 @@ Perfect for learning **game development**, **GUI programming**, and **Python log
 
 ```bash
 # Clone the repository
-git clone https://github.com/ACTUAL-USERNAME/ACTUAL-REPO.git
+git clone https://github.com/YashBrahmankar/snake-game.git
 
 # Go to project folder
 cd snake-game
