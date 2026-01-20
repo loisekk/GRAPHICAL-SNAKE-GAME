@@ -35,3 +35,49 @@ Python 3.x
 Pygame (Game development & rendering)
 
 Random Module (Food generation)
+⚡ How to Run Locally
+
+Clone the repository:
+
+git clone https://github.com/YOUR-USERNAME/Snake-Game-Python.git
+cd Snake-Game-Python
+
+
+Install dependencies:
+
+pip install pygame
+
+
+Run the game:
+
+python snake_game.py
+
+🧠 Learning Outcomes
+
+Understanding game loops & frame control
+
+Handling keyboard events
+
+Implementing collision logic
+
+Managing game state & score
+
+Writing clean, modular Python game code
+
+📌 Future Enhancements
+
+🔊 Sound effects & background music
+
+🏆 High-score system
+
+🎨 UI improvements & themes
+
+🕹️ Difficulty levels
+
+👨‍💻 Author
+
+Yash Brahmankar
+B.Tech Student | Python Developer | Game & ML Enthusiast
+
+📌 If you like this project, don’t forget to ⭐ the repository!
+
