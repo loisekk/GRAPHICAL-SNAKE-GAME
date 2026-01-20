@@ -1,84 +1,49 @@
-# 🐍 Snake Game
+🎮 Snake Game (Python + Pygame)
+<p align="center"> A classic Snake Game built with Python and Pygame — clean logic, smooth gameplay, and real-time scoring </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" alt="Python"/> <img src="https://img.shields.io/badge/Pygame-Game%20Development-green?style=for-the-badge" alt="Pygame"/> <img src="https://img.shields.io/badge/Project-Game%20Development-orange?style=for-the-badge" alt="Game Dev"/> <img src="https://img.shields.io/badge/Author-Yash%20Brahmankar-purple?style=for-the-badge" alt="Author"/> </p>
+🔥 Tagline
 
-**Author:** Yash Brahmankar
+"A timeless Snake game — rebuilt with Python precision and clean game logic." 🐍✨
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
-[![Pygame](https://img.shields.io/badge/Pygame-2.1-black?logo=pygame&logoColor=white)](https://www.pygame.org/news) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+📝 Project Description
 
----
+This project is a classic Snake Game implemented using Python and Pygame.
+It demonstrates fundamental game development concepts, including:
 
-## ✨ About the Game
+✅ Game loop & real-time rendering
 
-**Snake Game** is a retro-inspired classic built with **Python and Pygame**. Navigate the snake, eat food, grow longer, and avoid collisions!  
-Perfect for learning **game development**, **GUI programming**, and **Python logic**.
+✅ Keyboard input handling
 
----
+✅ Collision detection (walls & self)
 
-## 🚀 Features
+✅ Dynamic score tracking
 
-- 🐍 Classic Snake gameplay with smooth movement  
-- 🎯 Responsive arrow key controls  
-- 🍎 Randomized food spawning  
-- 💥 Collision detection with walls & self  
-- 🏆 Score tracking and replay without restarting  
+✅ Object movement using grid-based logic
 
----
+Ideal for Python beginners, game dev practice, and portfolio projects.
 
-## 🎮 Tech Stack
+🎬 Gameplay Demo
+<p align="center"> <img src="assets/snake_game_demo.gif" width="700" alt="Snake Game Demo"/> </p>
 
-| Technology | Description |
-|------------|-------------|
-| ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) | Core programming language |
-| ![Pygame](https://img.shields.io/badge/Pygame-2.1-black?logo=pygame&logoColor=white) | Game library for graphics & events |
-| VS Code / Terminal | Development environment |
+The GIF above shows real gameplay captured directly from the running application 🎮
 
----
+🎯 Game Features
 
-## 🎮 Gameplay Demo
+🟢 Smooth snake movement
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YashBrahmankar/snake-game/main/assets/snake_game_demo.gif" alt="Snake Game Demo" width="500"/>
-</p>
+🍎 Random food generation
 
----
+📈 Real-time score updates
 
-## ⚡ How to Run
+🚫 Wall & self-collision detection
 
-```bash
-# Clone the repository
-git clone https://github.com/YashBrahmankar/snake-game.git
+🔁 Restart or quit options after game over
 
-# Go to project folder
-cd snake-game
+💻 Tech Stack
 
-# Install dependencies
-pip install pygame
+Python 3.x
 
-# Run the game
-python snake_game.py
-🎮 Controls & Score
-Action	Key
-Move Up	↑
-Move Down	↓
-Move Left	←
-Move Right	→
-Restart Game (after game over)	C
-Quit Game	Q
+Pygame
 
-💡 Score: Your score increases by 1 for each food eaten. Try to beat your high score!
+Basic Game Physics
 
-📌 Tags
-Python Pygame GameDev ClassicGames Retro PortfolioProject GUI OpenSource BeginnerFriendly
-
-📈 Learnings & Highlights
-Implemented game loop logic and frame-based movement
-
-Handled collision detection and dynamic food spawning
-
-Managed score tracking, game states, and replay functionality
-
-Gained hands-on experience in Python GUI development with Pygame
-
-📝 License
-This project is licensed under the MIT License – feel free to use, learn, and modify responsibly.
+Event-driven Programming
