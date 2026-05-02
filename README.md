@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a7a1a,100:00ff41&height=200&section=header&text=Snake%20Game&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Classic%20Snake%20%7C%20Python%20%26%20Pygame&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
-
-<br/>
-
-# 🎮 Snake Game — Python & Pygame
+# 🐍 Snake Game — Python & Pygame
 
 **A smooth, collision-aware Snake game built with Python and Pygame — clean logic, real-time rendering, portfolio-ready.**
 
