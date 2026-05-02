@@ -1,83 +1,152 @@
-🎮 Snake Game – Python (Pygame)
-<p align="center"> A classic Snake Game built using Python & Pygame with smooth controls and real-time gameplay </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" alt="Python"/> <img src="https://img.shields.io/badge/Game-Pygame-green?style=for-the-badge" alt="Pygame"/> <img src="https://img.shields.io/badge/Project-Game%20Development-orange?style=for-the-badge" alt="Game Dev"/> <img src="https://img.shields.io/badge/Author-Yash%20Brahmankar-red?style=for-the-badge" alt="Author"/> </p>
-🔥 Tagline
+<div align="center">
 
-"A modern twist on the classic Snake game — simple, fast, and addictive!" 🐍✨
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a7a1a,100:00ff41&height=200&section=header&text=🐍%20Snake%20Game&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Classic%20Snake%20%7C%20Python%20%26%20Pygame&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
 
-📝 Project Description
+<br/>
 
-This is a Python-based Snake Game developed using the Pygame library.
-The project demonstrates core concepts of game loops, collision detection, event handling, and real-time rendering.
+# 🎮 Snake Game — Python & Pygame
 
-Key Highlights:
+**A smooth, collision-aware Snake game built with Python and Pygame — clean logic, real-time rendering, portfolio-ready.**
 
-🎯 Smooth snake movement & controls
+[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-Game_Engine-green?style=for-the-badge)](https://www.pygame.org/)
+[![Game Dev](https://img.shields.io/badge/Project-Game_Dev-orange?style=for-the-badge)](https://github.com/loisekk)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)](LICENSE)
+[![Author](https://img.shields.io/badge/Author-Yash%20Brahmankar-red?style=for-the-badge)](https://github.com/loisekk)
 
-🍎 Food generation & score tracking
+> *"A modern twist on the classic Snake game — simple, fast, and addictive."* 🐍
 
-💥 Collision detection (walls & self)
+</div>
 
-⏱️ Adjustable game speed
+---
 
-🎮 Beginner-friendly yet portfolio-ready
+## 🎥 Demo
 
-Perfect for Python learners, game dev beginners, and GitHub portfolios.
+<div align="center">
+  <img src="assets/snake_game_demo.gif" width="700" alt="Snake Game Demo"/>
+  <br/>
+  <sub>Live gameplay — movement, food generation, scoring, and collision detection</sub>
+</div>
 
-🎥 Demo Gameplay
-<p align="center"> <img src="assets/snake_game_demo.gif" width="700" alt="Snake Game Demo"/> </p>
+---
 
-Live gameplay preview showcasing movement, scoring, and game mechanics 🚀
+## 📌 Overview
 
-💻 Tech Stack
+**Snake Game** is a Python implementation of the classic arcade game, built entirely with the `pygame` library.
 
-Python 3.x
+The project demonstrates core game development fundamentals — game loops, real-time rendering, event handling, and collision logic — packaged in clean, modular Python code. No game engine abstractions. Pure logic, pure control.
 
-Pygame (Game development & rendering)
+---
 
-Random Module (Food generation)
-⚡ How to Run Locally
+## ✨ Features
 
-Clone the repository:
+| Feature | Details |
+|---|---|
+| 🎯 Smooth Controls | Arrow key input with frame-locked movement |
+| 🍎 Food Generation | Random spawn using Python `random` module |
+| 💥 Collision Detection | Wall boundary + self-collision game over |
+| 📈 Score Tracking | Real-time score display, increments on eat |
+| ⏱ Adjustable Speed | Clock-controlled FPS for difficulty tuning |
+| 🔄 Restart | Instant game reset on game over |
 
-git clone https://github.com/YOUR-USERNAME/Snake-Game-Python.git
+---
+
+## 🧠 How It Works
+
+```
+Init Pygame → Draw grid → Spawn food → Game loop starts
+                                              ↓
+                          Read input → Move snake → Check collision
+                                              ↓
+                              Hit food → Grow + Score++  → Continue
+                              Hit wall/self → Game Over
+```
+
+**Core systems:**
+
+| System | Implementation |
+|---|---|
+| Game Loop | `pygame` clock + fixed FPS tick |
+| Snake Body | List of coordinate tuples, prepend head, pop tail |
+| Food Spawn | `random.randint` within grid bounds, excludes snake body |
+| Collision | Head == wall boundary or head in body list |
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Tool | Purpose |
+|---|---|---|
+| Language | Python 3.11 | Core game logic |
+| Game Engine | `pygame` | Rendering, input, clock |
+| Randomization | `random` | Food position generation |
+
+---
+
+## 🚀 Getting Started
+
+**Clone the repo:**
+
+```bash
+git clone https://github.com/loisekk/Snake-Game-Python.git
 cd Snake-Game-Python
+```
 
+**Install dependency:**
 
-Install dependencies:
-
+```bash
 pip install pygame
+```
 
+**Run the game:**
 
-Run the game:
-
+```bash
 python snake_game.py
+```
 
-🧠 Learning Outcomes
+> Controls: `↑ ↓ ← →` to move. Avoid walls and yourself.
 
-Understanding game loops & frame control
+---
 
-Handling keyboard events
+## 📂 Project Structure
 
-Implementing collision logic
+```
+Snake-Game-Python/
+├── snake_game.py        # Main game loop, rendering, input handling
+├── assets/
+│   └── snake_game_demo.gif   # Gameplay demo
+└── README.md
+```
 
-Managing game state & score
+---
 
-Writing clean, modular Python game code
+## 🎯 Learning Outcomes
 
-📌 Future Enhancements
+- Understanding game loops and frame-rate control
+- Handling real-time keyboard events with `pygame`
+- Implementing collision detection without a physics engine
+- Managing dynamic game state (snake body as a list)
+- Writing clean, modular Python for game logic
 
-🔊 Sound effects & background music
 
-🏆 High-score system
+---
 
-🎨 UI improvements & themes
+## 👨‍💻 Author
 
-🕹️ Difficulty levels
+**Yash Brahmankar**
+B.Tech AI & ML | OIST, 2024–2028
 
-👨‍💻 Author
+[![GitHub](https://img.shields.io/badge/GitHub-loisekk-181717?style=flat-square&logo=github)](https://github.com/loisekk)
+[![Email](https://img.shields.io/badge/Email-yashbrahmankar95@gmail.com-D14836?style=flat-square&logo=gmail)](mailto:yashbrahmankar95@gmail.com)
 
-Yash Brahmankar
-B.Tech Student | Python Developer | Game & ML Enthusiast
+---
 
-📌 If you like this project, don’t forget to ⭐ the repository!
+## 📄 License
 
+Licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
+
+---
+
+<div align="center">
+  <sub>Built with Python · Powered by Pygame · Classic reimagined</sub>
+</div>
