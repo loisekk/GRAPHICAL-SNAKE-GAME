@@ -2,7 +2,6 @@ import pygame
 import random
 
 pygame.init()
-
 WIDTH, HEIGHT = 800, 600
 BLOCK_SIZE = 20
 SNAKE_SPEED = 7
